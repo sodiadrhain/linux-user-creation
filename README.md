@@ -7,9 +7,9 @@ A bash script called create_users.sh that reads a text file containing the emplo
 Before you run the command `bash create_users.sh <name-of-text-file>` make sure you have created a file `<name-of-text-file>.txt` which should contain set of users and the groups you want to create. See example below:
 
 ```
-light; sudo,dev,www-data
-idimma; sudo
-mayowa; dev,www-data
+light;sudo,dev,www-data
+idimma;sudo
+mayowa;dev,www-data
 ```
 
 Now run the script with example below (if you created text file as `users.txt`)
